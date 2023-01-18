@@ -1,0 +1,1 @@
+export const STORAGE_TODO_LIST = 'STORAGE_TODO_LIST';

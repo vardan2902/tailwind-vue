@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./assets/fonts/Roboto-Black.ttf");
+}
+
+@font-face {
+  font-family: "lota-grotesque";
+  src: url("./assets/fonts/Lota-Grotesque-Alt-1-Bold.otf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "lota-grotesque";
+  src: url("./assets/fonts/Lota-Grotesque-Alt-1-Regular.otf");
+  font-weight: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'lota-grotesque';
+}

@@ -15,7 +15,6 @@
     "baseUrl": ".",
     "types": [
       "webpack-env",
-      
       "@wdio/mocha-framework",
       "expect-webdriverio",
       "webdriverio/sync",
@@ -24,6 +23,9 @@
     "paths": {
       "@/*": [
         "src/*"
+      ],
+      "@tests/*": [
+        "tests/*"
       ]
     },
     "lib": [
