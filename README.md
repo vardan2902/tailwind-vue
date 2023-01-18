@@ -1,10 +1,10 @@
 # Tailwind-vue test project
 
-Firstly I divided all config files for being known where something breaks, in bigger projects, there are many config files for only one kind of configuration (e.g jest or webpack).
+First, I separated all configuration files to easily identify where issues may occur in larger projects, as there are often many config files for a single type of configuration (e.g. Jest or Webpack).
 
-Divided small parts of the layout into rendering components, divided actors by folders, a separate folder for the store, routes, views, and components.
+I also separated small parts of the layout into rendering components and organized actors into separate folders, with a separate folder for the store, routes, views, and components.
 
-Before writing logical functions I wrote tests (TDD) by doing so I wrote general code much faster and kept it as simple as possible.
+Before writing logical functions, I used Test-Driven Development (TDD) and wrote tests first. This allowed me to write the general code much faster and keep it as simple as possible.
 
 ## Project setup
 ```
