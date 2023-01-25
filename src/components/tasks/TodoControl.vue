@@ -5,6 +5,7 @@
       class="h-[48px] w-full border border-solid border-light-grey rounded-lg p-3"
       v-model="text"
       ref="inputRef"
+      placeholder="New task title"
     />
     <button
       class="bg-light-blue text-white text-base font-semibold w-[129px] h-[46px] flex justify-center items-center rounded-lg"
